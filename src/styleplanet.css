@@ -1,0 +1,46 @@
+body {
+  background-color: #d09c8b;
+}
+
+.planets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.planets img {
+  height: auto;
+  max-width: 50%;
+  margin-bottom: 10px;
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px solid black;
+  margin: 15px;
+  -webkit-box-shadow: 4px 3px 15px 2px #000000; 
+  box-shadow: 4px 3px 13px 2px #000000;
+  flex-grow: 2;
+}
+
+h2, h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.missions-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.missions-info {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+}
